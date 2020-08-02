@@ -1,0 +1,17 @@
+sparkparam:
+  owner: mikeliu
+  jobname: spark_default
+  filepath:
+    dailyinput:
+      ## daily input
+      - ./data/input
+    yesinput:
+      ## yesterday total input
+      - ./data/output/total
+    output:
+      ## total output
+      - ./data/output/total
+      ## monthly output
+      - ./data/output/month
+
+
